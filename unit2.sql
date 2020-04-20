@@ -260,7 +260,8 @@ ON o.account_id = a.id
 WHERE o.occurred_at BETWEEN '2015-01-01' AND '2016-01-01'
 ORDER BY occurred_at DESC;
 
-/*Further REF:
+/*
+Further references:
 https://www.w3resource.com/sql/joins/cross-join.php
 https://www.w3schools.com/sql/sql_union.asp
 https://www.w3schools.com/sql/sql_distinct.asp
